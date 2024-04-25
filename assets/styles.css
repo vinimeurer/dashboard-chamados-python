@@ -1,0 +1,96 @@
+/* Estilos para o layout responsivo */
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; /* Definindo posição relativa */
+}
+
+.sidebar {
+    position: fixed; /* Alterado para posição fixa */
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 2; /* Definindo z-index acima dos gráficos */
+}
+
+.graphs-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    position: relative; /* Definindo posição relativa */
+    z-index: 1; /* Definindo z-index abaixo da barra lateral */
+}
+
+.graphs-container > * {
+    flex: 1;
+    margin: 10px;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.total-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative; /* Definindo posição relativa */
+    z-index: 1; /* Definindo z-index abaixo da barra lateral */
+}
+
+.total-box {
+    font-size: 25px;
+    font-weight: bold;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#botao-filtro {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: 20px;
+    background-color: #517590;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    
+    #botao-filtro:hover {
+        background-color: #004c6d;
+    }
+
+
+/* Estilo para o botão de Filtrar */
+#botao-filtrar {
+    margin-top: 20px;
+    background-color: #517590;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botao-filtrar:hover {
+    background-color: #004c6d;
+}
