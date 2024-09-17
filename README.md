@@ -1,6 +1,6 @@
 ## Dashboard de Chamados
 
-Durante meu estágio como QA, construí este Dashboard em Python utilizando a biblioteca Dash, para analisar dados de chamados de um sistema de registros de ponto, incluindo informações sobre categorias de chamados, plataformas, resoluções e datas de abertura.
+Durante meu estágio em Desenvolvimento, construí este Dashboard em Python utilizando a biblioteca Dash, para analisar dados de chamados de um sistema de registros de ponto, incluindo informações sobre categorias de chamados, plataformas, resoluções e datas de abertura.
 
 ### Funcionalidades
 
